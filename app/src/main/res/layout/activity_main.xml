@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wind"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/et7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="7"
+        app:layout_constraintBottom_toTopOf="@+id/et4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpraksi" />
+
+    <Button
+        android:id="@+id/etdia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="/"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et9"
+        app:layout_constraintTop_toBottomOf="@+id/etpraksi" />
+
+    <Button
+        android:id="@+id/etkoma"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="."
+        app:layout_constraintStart_toEndOf="@+id/et0"
+        app:layout_constraintTop_toBottomOf="@+id/et2" />
+
+    <Button
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="3"
+        app:layout_constraintStart_toEndOf="@+id/et2"
+        app:layout_constraintTop_toBottomOf="@+id/et6" />
+
+    <Button
+        android:id="@+id/et6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="6"
+        app:layout_constraintStart_toEndOf="@+id/et5"
+        app:layout_constraintTop_toBottomOf="@+id/et9" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="27dp"
+        android:text="Powered By Sarantis Technologies"
+        app:layout_constraintStart_toEndOf="@+id/etkatharise"
+        app:layout_constraintTop_toBottomOf="@+id/etison" />
+
+    <Button
+        android:id="@+id/et8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="142dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="8"
+        app:layout_constraintStart_toEndOf="@+id/et7"
+        app:layout_constraintTop_toBottomOf="@+id/etpraksi" />
+
+    <Button
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et4" />
+
+    <Button
+        android:id="@+id/etison"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="="
+        app:layout_constraintStart_toEndOf="@+id/etkoma"
+        app:layout_constraintTop_toBottomOf="@+id/et3" />
+
+    <Button
+        android:id="@+id/etkatharise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:text="Clear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et0" />
+
+    <Button
+        android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="5"
+        app:layout_constraintStart_toEndOf="@+id/et4"
+        app:layout_constraintTop_toBottomOf="@+id/et8" />
+
+    <Button
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et7" />
+
+    <Button
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="2"
+        app:layout_constraintStart_toEndOf="@+id/et1"
+        app:layout_constraintTop_toBottomOf="@+id/et5" />
+
+    <Button
+        android:id="@+id/etmion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="-"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et3"
+        app:layout_constraintTop_toBottomOf="@+id/etepi" />
+
+    <Button
+        android:id="@+id/et0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et1" />
+
+    <Button
+        android:id="@+id/etsin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etison"
+        app:layout_constraintTop_toBottomOf="@+id/etmion" />
+
+    <Button
+        android:id="@+id/et9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="143dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="9"
+        app:layout_constraintStart_toEndOf="@+id/et8"
+        app:layout_constraintTop_toBottomOf="@+id/etpraksi" />
+
+    <Button
+        android:id="@+id/etepi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et6"
+        app:layout_constraintTop_toBottomOf="@+id/etdia" />
+
+    <TextView
+        android:id="@+id/etapotelesma"
+        android:layout_width="197dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="107dp"
+        android:hint="@string/app_apoltelesma"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/etpraksi"
+        android:layout_width="323dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="33dp"
+        android:hint="@string/app_praksi"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etapotelesma" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
